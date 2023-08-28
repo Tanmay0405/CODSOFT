@@ -1,0 +1,59 @@
+/* Reset and basic styling same as previous example */
+
+/* Advanced styling */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.hero {
+    background-image: url('job3.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #c5ac3d;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #eaea07;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #33ce5a72;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
